@@ -67,8 +67,9 @@
 .flip-clock-wrapper ul {
   position: relative;
   float: left;
-  margin: 5px;
-  width: 60px;
+  margin: 0.25%;
+  width: 12%;
+  max-width: 60px;
   height: 90px;
   font-size: 80px;
   font-weight: bold;
@@ -156,7 +157,7 @@
   font-size: 70px; }
 
 .flip-clock-wrapper ul li a div.up div.inn {
-  top: 0; }
+  top: 0; font-size: 0.60em; padding-top: 10px; }
 
 .flip-clock-wrapper ul li a div.down div.inn {
   bottom: 0; }
@@ -192,6 +193,10 @@
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   left: 5px; }
+  
+.flip-clock-label {
+  /*display: none; */
+}
 
 .flip-clock-divider .flip-clock-label {
   position: absolute;
